@@ -1,0 +1,90 @@
+$1
+What is ESD?:Electrostatic Discharge:1100
+What can be used to prevent ESD?:ESD strap, ESD mats, antistatic bags, equipment grounding, disconnect power:1100
+What is EMI?:Electromagnetic Interference:1100
+What can be done to prevent EMI?:Keep magnets away from electrical components:1100
+What is RFI?:Radio Frequency Interference:1100
+What can be done to prevent RFI?:Keep radio emitting devices away from eachother:1100
+What causes RFI?:Devices using the same frequencies:1100
+What tool should every tech always have?:Philips-head screwdriver:1100
+When building a server closet, what safety technique(s) should be used?:Standard carpentry safety techniques (Air filter mask, eye protection, etc.):1100
+What should always be removed before operating on a system?:Jewelry, loose hanging clothing:1100
+What is the trouble shooting methodology?:1. Identify!2. Establish a theory of probable cause!3. Test the theory!4. Establish a plan of action!5. Verify!6. Document:1101
+What should always be done when identifying a problem?:Backup critical files:1101
+When establishing a theory of probable cause, use knowledge of the __:Computing process:1101
+Before opening the case, what should you look for?:Mangled wires, damaged compenents, heating issues, odd sounds, ozone smell:1101
+Before testing the theory, ensure you have what?:Permission to make changes:1101
+If you don't have the skills or permission for an issue, what should be done?:Escalate the issue:1101
+When establishing a plan of action, what should be included?:Backing up user data:1101
+After an issue has been fixed, what should be done?:Verify full system functionality:1101
+$2
+What are the three stages of computing?:Input!Processing!Output:1100
+What key combination brings up the quick menu in Windows?:Windows + x:1102
+What key combination brings up mission control on MacOS?:ctrl + up:1102
+What feature does MacOS have that supports multiple desktops?:Spaces:1102
+What key(s) can be used to navigate MacOS spaces?:ctrl + left or right:1102
+What key combination brings up utilities on MacOS?:cmd + shift + u:1102
+$3
+What is EDB?:External Data Bus:1100
+What does DRAM require?:A constant charge and a periodic refresh:1100
+What is MCC?:Memory Controller Chip, responsible for retrieving memory from RAM:1100
+What bus do the CPU and MCC communicate on?:Communication bus:1100
+What is the ALU?:Arithmetic Logic Unit, which handles basic math:1101
+What is ISA?:Industry Standard Architecture (instruction set):1101
+What is the most used CPU platform?:ARM:1101
+What is SoC?:System on a chip:1101
+Why are CPUs on mobile devices designed to use less electricity?:To extend battery life and reduce heat as the devices do not have proper ventilation:1101
+What is thermal throttling?:The load on the CPU is reduced to prevent overheating:1101
+What is TDP?:Thermal Design Power, which measures how much heat a CPU gives off, in watts:1101
+Why are clock multipliers used?:To enhance the clock speed of a CPU past the clock speed of the EDB:1101
+What registers have become more common in CPUs in recent years?:Multimedia Extensions (MMX) and Streaming SIMD Extensions (SSE):1101
+How much memory does 64-bit addressing support?:16 Exabytes:1101
+What are CPU SRAM chips also known as?:Cache:1101
+Why are caches used in CPUs?:To prevent stalls (wait states):1101
+How many caches are typically in a modern CPU?:3; L1, L2, L3:1101
+What does Intel call the CPU caches?:Smart Cache:1101
+The three CPU caches have different speeds and memory, what is their order?:L1 is the fastest and smallest, L3 is the slowest and largest:1101
+What is IMC?:Integrated Memory Controller:1101
+Intel CPUs use what method to attach to sockets?:Land Grid Array (LGA):1101
+AMD CPUs use what method to attach to sockets?:Pin Grid Array (PGA):1101
+What is ZIF?:Zero Insertion Force:1101
+A heat sink without a fan is called what?:Passive cooling:1101
+A heat sink with a fan is called what?:Active cooling:1101
+What is OEM?:Original Equipment Manufacturer:1101
+CPU overheating can be caused by what?:Too much or too little thermal paste, or improper cooling (fan not connected to power):1101
+What are symptoms of an overheating CPU?:Sluggish performance!Intermittent shutdowns!Spontaneous reboots:1101
+The Blue Screen of Death is officially known as __:Windows Stop Error:1101
+The BSoD on Mac appears as:A never ending spinning wheel (SPoD):1101
+The BSoD and SPoD are called what?:Proprietary Crash Screens:1101
+$4
+What is SDRAM?:Synchronous DRAM, which is tied to the system clock:1100
+What is DIMM and SO-DIMM?:Dual inline memory module (desktops)!Small outline DIMM (mobile devices):1100
+What are DIMM slots also known as?:Banks:1100
+What are the 5 most common clock speeds for SDRAM?:PC66, PC75, PC83, PC100, PC133:1100
+What is DDR SDRAM?:Double data rate synchronous dynamic random access memory:1100
+What improvement did DDR SDRAM make over SDRAM?:Doubled the output by doubling the processes per clock cycle:1100
+What three types of RAM are most commonly used in modern systems?:DDR3, DDR4, DDR5:1101
+How many pins do DDR3 RAM sticks have?:240-pin DIMM, 204-pin SO-DIMM:1101
+What do some DDR3 sticks have that allows for overclocking?:Extreme Memory Profile (XMP) / AMD Memory Profile (AMP):1101
+How much faster are DDR3 I/O speeds compared to the clock speed?:4 times faster:1101
+How much faster is DDR3 compared to DDR2?:2 times faster:1101
+What is the max size of DDR3 RAM?:16GB:1101
+What is the max size of DDR4 RAM?:In theory, they can reach up to 512GB, but they actually come in sizes up to 64GB:1101
+How many pins do DDR4 RAM sticks have?:288-pin DIMM, 260-pin SO-DIMM:1101
+What generation of RAM introduced MT/s?:DDR4 and onwards measures speed in megatransfers per second:1101
+What is the max size of DDR5 RAM?:256GB:1101
+What is PMIC?:Power Management Integrated Circuit, introduced with DDR5 RAM:1101
+How many pins do DDR5 RAM sticks have?:288-pin DIMM (not backwards compatible), 262-pin SO-DIMM:1101
+How is latency in RAM measured?:In clock cycles (CL):1101
+What is ECC RAM?:Error Correction Code RAM:1101
+How many pins do ECC DDR3 and ECC DDR4 RAM sticks have?:240-pin DIMM, 200-pin SO-DIMM:1101
+What type of ECC does DDR5 use?:It checks bit flips on the chip itself, rather than during data transfer:1101
+Is ECC or non-ECC RAM more common?:Non-ECC RAM. ECC RAM is typically only used on high end systems (such as servers):1101
+What are signs of too little RAM in a system?:Slow performance, Excessive hard drive accessing, Program stalling:1101
+What is virtual memory?:A segment of the hard drive being used like RAM in the event that there is not enough RAM on the system for all open programs:1101
+How does the OS decide which program to put into virtual memory?:It moves the least used programs first:1101
+What is disk thrashing?:Excessive use of virtual memory:1101
+What is SPD and what does it contain?:Serial Presence Detect. A chip on a RAM stick containing information about the RAM, including size, speed, ECC / non-ECC, registered / unregistered:1101
+What is a symptom of a bad SPD chip?:POST error and system will not boot:1101
+What are the symptoms of bad memory?:Lockups, page faults, error screens, crash screens:1101
+What is NMI?:Non maskable interrupt (proprietary crash screens):1101
